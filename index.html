@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title>Final Group Project: BookNook App</title>
+  </head>
+  <body>
+    <!-- Navigation Content -->
+    <nav>
+      <div id="tabs">
+        <p><b>Log In</b></p>
+        <p><b>Join</b></p>
+        <p><b>Download App</b></p>
+        <p><b>About Us</b></p>
+      </div>
+      <div id="navLogo">
+        <img src="images/booknooklogo.svg" alt="Book Nook Logo" />
+      </div>
+      <div id="searchBar">
+        <i class="ph-bold ph-magnifying-glass"></i>
+        <p>Search</p>
+      </div>
+    </nav>
+
+    <!-- Carousel Content -->
+
+    <div id="carousel">
+      <div class="bd-example">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleCaptions"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="images/carousel1.svg"
+                class="d-block w-100"
+                alt="Download Book Nook App"
+              />
+              <div class="carousel-caption d-none d-md-block heroText">
+                <h1><b>Where Reading</b></h1>
+                <h1><b>Ignites Friendships</b></h1>
+                <br />
+                <p>Join thousands of other passionate</p>
+                <p>readers and find your nook.</p>
+                <br />
+                <button class="whiteBtn">
+                  <p><b>Download App</b></p>
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/carousel2.svg"
+                class="d-block w-100"
+                alt="Latin Heritage Month Book Clubs"
+              />
+              <div class="carousel-caption d-none d-md-block heroText">
+                <h1><b>Latin Heritage Month</b></h1>
+                <h2><b>September 15 – October 15</b></h2>
+                <br />
+                <p>See all book clubs currently</p>
+                <p>reading titles by Latinx authors.</p>
+                <br />
+                <button class="yellowBtn">
+                  <p><b>View Book Clubs</b></p>
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/carousel3.svg"
+                class="d-block w-100"
+                alt="Book Club Spotlight"
+              />
+              <div class="carousel-caption d-none d-md-block heroText">
+                <h2><b>Spotlight:</b></h2>
+                <h1><b>Young Adult</b></h1>
+                <h1><b>Romance Book Club</b></h1>
+                <br />
+                <p>In the mood for a fun and light-</p>
+                <p>hearted read? This BookNook OG</p>
+                <p>is the place for you.</p>
+                <br />
+                <button class="yellowBtn">
+                  <p><b>View Book Club</b></p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleCaptions"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleCaptions"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Trending Clubs Content -->
+
+    <section id="trending">
+      <div class="sectionHeader">
+        <h3><b>This Month's Trending Clubs</b></h3>
+      </div>
+      <div class="cardContainer">
+        <div class="card">
+          <div class="cardImg">
+            <img
+              src="images/potterheads.svg"
+              alt="Potterheads Reading Fan Club"
+            />
+          </div>
+          <div class="cardText">
+            <h5><b>Potterheads Reading Fan Club</b></h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <button class="yellowBtn">
+              <p><b>View Book Club</b></p>
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardImg">
+            <img
+              src="images/YAromance.svg"
+              alt="Potterheads Reading Fan Club"
+            />
+          </div>
+          <div class="cardText">
+            <h5><b>Young Adult Romance Book Club</b></h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <button class="yellowBtn">
+              <p><b>View Book Club</b></p>
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardImg">
+            <img src="images/hobbit.svg" alt="Potterheads Reading Fan Club" />
+          </div>
+          <div class="cardText">
+            <h5><b>Books-to-Screen Enthusiasts</b></h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <button class="yellowBtn">
+              <p><b>View Book Club</b></p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download App Content -->
+
+    <section id="downloadApp">
+        <div class="downloadCtn">
+          <div class="quoteText">
+            <h1>
+              <q
+                >A perfect <b>book-ish sanctuary</b> for all those who
+                <b>love to read</b> and <b>yearn to connect.</b></q
+              >
+            </h1>
+            <br />
+            <p><b>Susan Dawson,</b> Features Editor @ Literary Hub</p>
+          </div>
+          <p>Find us the Apple App Store and Google Play</p>
+          <div class="appIconCtn">
+            <div class="appIcon">
+              <img src="images/AppIcon.svg" alt="Book Nook App Icon" />
+            </div>
+            <div class="appTextandBtn">
+              <div class="appText">
+                <p>
+                  <b>book.nook</b>
+                  <br />
+                  Community of avid readers with in-person or remote book clubs.
+                </p>
+              </div>
+              <button class="yellowBtn">
+                <p><b>Download App</b></p>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How BookNook Works Content -->
+
+    <section id="howitWorks">
+      <div class="sectionHeader">
+        <h3><b>How It Works</b></h3>
+      </div>
+      <div id="appScreensCtn">
+        <div class="appScreen">
+          <img src="images/appScreen1.svg" alt="Forge New Connections" />
+        </div>
+        <div class="appScreen">
+          <img src="images/appScreen2.svg" alt="Find Your Nook" />
+        </div>
+        <div class="appScreen">
+          <img src="images/appScreen3.svg" alt="Discussions You Like" />
+        </div>
+      </div>
+      <div class="descriptor">
+        <p>
+          Welcome to <b>book.nook,</b> your personal haven for all things
+          literary! Dive into the world of books like never before and connect
+          with fellow readers from around the globe. Whether you're a seasoned
+          bookworm or just starting your literary journey, book.nook is the
+          ultimate destination for bibliophiles of all kinds.
+        </p>
+      </div>
+    </section>
+
+    <!-- Book Influencers Content -->
+
+    <section id="influencers">
+      <div class="topDivider"></div>
+      <div class="sectionHeader">
+        <h3><b>What Book Influencers Are Saying</b></h3>
+      </div>
+      <div id="infCtn">
+        <div class="infCard">
+          <div class="infProfile">
+            <img src="images/profile1.svg" alt="Marian L" />
+            <p><b>Marian L</b></p>
+            <p>@BookWormsAnon</p>
+          </div>
+          <div class="infText">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. ⭐⭐⭐⭐⭐ #booknook
+              #Bookstagram #BookTok
+            </p>
+          </div>
+        </div>
+        <div class="infCard">
+          <div class="infProfile">
+            <img src="images/profile2.svg" alt="Marcus S" />
+            <p><b>Marcus S</b></p>
+            <p>@LitFreak</p>
+          </div>
+          <div class="infText">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. ⭐⭐⭐⭐⭐ #booknook
+              #Bookstagram #BookTok
+            </p>
+          </div>
+        </div>
+        <div class="infCard">
+          <div class="infProfile">
+            <img src="images/profile3.svg" alt="Elizabeth K" />
+            <p><b>Elizabeth K</b></p>
+            <p>@ReadinginNewHaven</p>
+          </div>
+          <div class="infText">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. ⭐⭐⭐⭐⭐ #booknook
+              #Bookstagram #BookTok
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="bottomDivider"></div>
+    </section>
+
+    <!-- Upcoming Events Content -->
+    <section id="events">
+      <div class="sectionHeader">
+        <h3><b>Upcoming Events</b></h3>
+      </div>
+
+        <div id="eventsCtn">
+          <!-- Event card 1 -->
+          <div id="eventCard1">
+            <div class="horiCard">
+              <div class="bookCover">
+                <img src="images/cover1.svg" alt="XOXO" />
+              </div>
+              <div class="eventInfo">
+                <div class="clubName">
+                  <p><b>Young Adult Romance Book Club</b></p>
+                </div>
+                <div class="eventName">
+                  <h4>Monthly Meet-up & Discussion</h4>
+                </div>
+                <button class="tealEventBtn">
+                  <p><b>•</b> In-person</p>
+                </button>
+                <div class="currentRead">
+                  <p>Currently Reading</p>
+                  <h3><b>XOXO</b> – Axie Oh</h3>
+                </div>
+                <button class="yellowBtn">
+                  <p>View Schedule</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Event card 2 -->
+          <div id="eventCard2">
+            <div class="horiCard">
+              <div class="bookCover">
+                <img src="images/cover2.svg" alt="Klara and The Sun" />
+              </div>
+              <div class="eventInfo">
+                <div class="clubName">
+                  <p><b>LitFic Fanatics & Friends</b></p>
+                </div>
+                <div class="eventName">
+                  <h4>Monthly Meet-up & Discussion</h4>
+                </div>
+                <button class="orangeEventBtn">
+                  <p><b>•</b> Online</p>
+                </button>
+                <div class="currentRead">
+                  <p>Currently Reading</p>
+                  <h3><b>Klara & the Sun</b></h3>
+                  <h3>– Kazuo Ishiguro</h3>
+                </div>
+                <button class="yellowBtn">
+                  <p>View Schedule</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Event card 3 -->
+          <div id="eventCard3">
+            <div class="horiCard">
+              <div class="bookCover">
+                <img src="images/cover3.svg" alt="You Had Me at Hola" />
+              </div>
+              <div class="eventInfo">
+                <div class="clubName">
+                  <p><b>Latinx Reading Circle</b></p>
+                </div>
+                <div class="eventName">
+                  <h4>Book of the Month Discussion</h4>
+                </div>
+                <button class="orangeEventBtn">
+                  <p><b>•</b> Online</p>
+                </button>
+                <div class="currentRead">
+                  <p>Currently Reading</p>
+                  <h3><b>You Had Me at Hola</b></h3>
+                  <h3>– Alexis Daria</h3>
+                </div>
+                <button class="yellowBtn">
+                  <p>View Schedule</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Event card 4 -->
+          <div id="eventCard4">
+            <div class="horiCard">
+              <div class="bookCover">
+                <img src="images/cover4.svg" alt="The Hating Game" />
+              </div>
+              <div class="eventInfo">
+                <div class="clubName">
+                  <p><b>Books2Screen Romance Lovers</b></p>
+                </div>
+                <div class="eventName">
+                  <h4>Monthly Meet-up & Discussion</h4>
+                </div>
+                <button class="blueEventBtn">
+                  <p><b>•</b> Hybrid</p>
+                </button>
+                <div class="currentRead">
+                  <p>Currently Reading</p>
+                  <h3><b>The Hating Game</b></h3>
+                  <h3>– Sally Thorne</h3>
+                </div>
+                <button class="yellowBtn">
+                  <p>View Schedule</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
