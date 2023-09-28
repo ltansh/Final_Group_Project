@@ -63,7 +63,7 @@
                 class="d-block w-100"
                 alt="Download Book Nook App"
               />
-              <div class="carousel-caption d-none d-md-block heroText">
+              <div class="carousel-caption d-block heroText">
                 <h1><b>Where Reading Ignites Friendships</b></h1>
                 <br />
                 <p>Join thousands of other passionate</p>
@@ -80,7 +80,7 @@
                 class="d-block w-100"
                 alt="Latin Heritage Month Book Clubs"
               />
-              <div class="carousel-caption d-none d-md-block heroText">
+              <div class="carousel-caption d-block heroText">
                 <h1><b>Celebrating Latin Heritage Month</b></h1>
                 <h2><b>September 15 – October 15</b></h2>
                 <br />
@@ -98,7 +98,7 @@
                 class="d-block w-100"
                 alt="Book Club Spotlight"
               />
-              <div class="carousel-caption d-none d-md-block heroText">
+              <div class="carousel-caption d-block heroText">
                 <h2><b>Spotlight:</b></h2>
                 <h1><b>Young Adult Romance Book Club</b></h1>
                 <br />
@@ -128,7 +128,7 @@
             data-slide="next"
           >
             <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
-            <i class="ph-fill ph-caret-circle-right"></i>
+            <i class="ph-fill ph-caret-circle-right carouselArrow"></i>
             <span class="sr-only">Next</span>
           </a>
         </div>
@@ -210,7 +210,9 @@
           <br />
           <p><b>Susan Dawson,</b> Features Editor @ Literary Hub</p>
         </div>
-        <p><b>Find us the Apple App Store and Google Play</b></p>
+        <div class="appStore">
+          <p><b>Find us the Apple App Store and Google Play</b></p>
+        </div>
         <div class="appIconCtn">
           <div class="appIcon">
             <img src="images/AppIcon.svg" alt="Book Nook App Icon" />
@@ -248,7 +250,7 @@
           <img src="images/appScreen3.svg" alt="Discussions You Like" />
         </div>
       </div>
-      <div class="descriptor">
+      <div class="descriptor sectionCtn">
         <p>
           Welcome to <b>book.nook,</b> your personal haven for all things
           literary! Dive into the world of books like never before and
@@ -443,8 +445,12 @@
         <img src="images/logostacked.svg" alt="Book Nook logo" />
         <div class="appStoreBtn">
           <p><b>Download book.nook</b></p>
-          <button class="yellowBtn"><p>AppStore</p></button>
-          <button class="yellowBtn"><p>Google Play</p></button>
+          <button class="yellowBtn">
+            <p><i class="ph-fill ph-apple-logo"></i>App Store</p>
+          </button>
+          <button class="yellowBtn">
+            <p><i class="ph-fill ph-google-play-logo"></i>Google Play</p>
+          </button>
         </div>
         <div class="footerTab">
           <p><b>About Us</b></p>
@@ -486,6 +492,9 @@
         </div>
       </div>
     </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -501,5 +510,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
