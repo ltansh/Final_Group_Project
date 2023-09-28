@@ -1,4 +1,4 @@
-body {
+html {
     margin: 0 auto;
 }
 
@@ -87,7 +87,6 @@ i {
     font-size: 50px;
     color: #0D0D0D;
     text-align: left;
-    z-index: 100;
 }
 
 .heroText h2 {
@@ -95,7 +94,6 @@ i {
     font-size: 38px;
     color: #0D0D0D;
     text-align: left;
-    z-index: 100;
 }
 
 .heroText p {
@@ -115,7 +113,6 @@ border-radius: 200px;
 padding-left: 40px;
 padding-right: 40px;
 padding-top: 15px;
-/* margin-left: -1020px; */
 }
 
 .whiteBtn p{
@@ -137,16 +134,16 @@ padding-top: 15px;
     line-height: 70%;
 }
 
-section {
+/* section {
     margin-left: 160px;
     margin-right: 160px;
-}
+} */
 
 .sectionHeader {
-    margin-left: 160px;
-    margin-right: 160px;
-    width: 100%;
+    margin-left: 240px;
+    margin-right: 240px;
 }
+
 .sectionHeader h3 {
     margin-top: 60px;
     margin-bottom: 30px;
@@ -159,13 +156,14 @@ section {
 #trending {
     background-image: url(images/trendingbkg.svg);
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
 }
 
 .cardContainer {
-    margin-left: 160px;
-    margin-right: 160px;
+    margin-left: 240px;
+    margin-right: 240px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -195,16 +193,14 @@ section {
     background-image: url(images/downloadbkg.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 100%;
-    max-height: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .downloadCtn {
     position: relative;
-    margin-left: 160px;
-    margin-right: 160px;
+    margin-left: 240px;
+    margin-right: 240px;
     margin-top: 60px;
     margin-bottom: 80px;
 }
@@ -214,12 +210,13 @@ section {
 }
 
 .quoteText {
-    width: 100%;
+    position: relative;
+    width: 50%;
     margin-bottom: 40px;
 }
 
 .quoteText h1 {
-    line-height: 110%;
+    line-height: 120%;
 }
 
 .quoteText p {
@@ -247,8 +244,8 @@ section {
 }
 
 #appScreensCtn {
-    margin-left: 160px;
-    margin-right: 160px;
+    margin-left: 240px;
+    margin-right: 240px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -266,8 +263,8 @@ section {
 }
 
 .descriptor {
-    margin-left: 160px;
-    margin-right: 160px;
+    margin-left: 240px;
+    margin-right: 240px;
     margin-bottom: 40px;
 }
 
@@ -295,8 +292,8 @@ section {
 }
 
 #infCtn {
-    margin-left: 160px;
-    margin-right: 160px;
+    margin-left: 240px;
+    margin-right: 240px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -340,11 +337,12 @@ section {
     flex-direction: column;
     background-image: url(images/eventsbkgd.svg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #eventsCtn {
-    margin-left: 160px;
-    margin-right: 160px;
+    margin-left: 240px;
+    margin-right: 240px;
     padding-bottom: 80px;
     position: relative;
     display: grid;
